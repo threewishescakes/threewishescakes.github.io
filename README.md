@@ -1,2 +1,2 @@
 # threewishescakes.github.io
-website for threewishescakes.com
+website for site threewishescakes.com
