@@ -951,7 +951,7 @@ header .item .slide-content h2 {
   font-size: 28px;
 }
 header .item .item_one {
-  background-image: url('../images/header_background.jpg');
+  background-image: url('../images/strawberry-lemonade-cupcake.jpg');
 }
 header .item .item_two {
   background-image: url('../images/header_background_2.jpg');
@@ -1043,7 +1043,7 @@ header .btn:hover i.animated {
   padding: 25px 0;
   /* Change background image for #unique section here */
 
-  background: url('../images/unique_chain_bg.jpg') no-repeat center center scroll;
+  background: url('../images/celebration.jpg') no-repeat center center scroll;
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1052,7 +1052,7 @@ header .btn:hover i.animated {
 }
 #unique .section-heading,
 #unique .section-subheading {
-  color: #fff;
+  color: #000;
   font-size: 35px;
 }
 #unique .section-subheading {
