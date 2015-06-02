@@ -1266,6 +1266,52 @@ header .btn:hover i.animated {
 #contact .btn {
   margin-bottom: 15px;
 }
+
+.pricing {
+  color: #fff;
+  background: no-repeat center center scroll;
+  background-color: #222;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.pricing .pricing-item {
+  z-index: 1;
+  margin-bottom: 30px;
+  padding: 30px;
+  text-align: center;
+  color: #222;
+  background: #fff;
+  -webkit-box-shadow: 0 0 30px 5px rgba(34, 34, 34, 0.75);
+  -moz-box-shadow: 0 0 30px 5px rgba(34, 34, 34, 0.75);
+  box-shadow: 0 0 30px 5px rgba(34, 34, 34, 0.75);
+}
+.pricing .pricing-item h3 {
+  margin: 0;
+}
+.pricing .pricing-item hr {
+  max-width: 100px;
+}
+.pricing .pricing-item .price {
+  margin-bottom: 20px;
+}
+.pricing .pricing-item .price .number {
+  font-size: 50px;
+  font-weight: 900;
+}
+.pricing .pricing-item .price .number sup {
+  font-size: 30px;
+}
+.pricing .pricing-item .list-group-item {
+  border-radius: 0;
+}
+
+#pricelist {
+  margin-top: 30px;
+  color:  #000;
+}
+
 /*
 // -------------
 // Google Maps
@@ -1394,6 +1440,7 @@ footer #newsletter input {
   padding: 0;
   margin: 0;
 }
+
 @media screen and (max-width: 767px) {
   footer .inner {
     padding-top: 35px;
@@ -1677,6 +1724,34 @@ video {
     border-radius: 3px;
   }
 }
+@media (min-width: 992px) {
+  .pricing {
+    background-attachment: scroll;
+  }
+  .pricing .pricing-item {
+    margin-bottom: 0;
+  }
+  .pricing .pricing-item.featured-first {
+    margin-top: 15px;
+    margin-right: -15px;
+  }
+  .pricing .pricing-item.featured {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 45px 30px;
+  }
+  .pricing .pricing-item.featured-last {
+    margin-top: 15px;
+    margin-left: -15px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .pricing
+}
+
 /* Menu call outs */
 #menu-one {
   background-image: url('../images/header_background_2.jpg');
