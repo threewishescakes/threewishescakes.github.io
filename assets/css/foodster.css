@@ -1050,13 +1050,21 @@ header .btn:hover i.animated {
   background-size: cover;
   -o-background-size: cover;
 }
+#unique .section-heading {
+  max-width: 650px;
+  margin: 0 auto;
+}
 #unique .section-heading,
 #unique .section-subheading {
   color: #000;
   font-size: 35px;
 }
+#unique .section-subheading span {
+  font-size: 52px;
+}
 #unique .section-subheading {
-  font-family: 'Old Standard TT', serif;
+  max-width: 420px;
+  margin: 0 auto;
   font-weight: bold;
   font-style: normal;
 }
