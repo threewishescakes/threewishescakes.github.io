@@ -1307,6 +1307,27 @@ header .btn:hover i.animated {
   border-radius: 0;
 }
 
+/*
+//Testing removing borders for empty cells
+*/
+
+.pricing .list-group-item {
+  empty-cells: show;
+}
+
+.pricing .list-group li:empty+li:empty {
+  border:none;
+  min-height:3em;
+}
+
+.pricing .list-group li:not(:empty)+li:empty {
+  border-bottom:none;
+  border-left:none;
+  border-right:none;
+  min-height:3em;
+}
+
+
 #pricelist {
   margin-top: 30px;
   color:  #000;

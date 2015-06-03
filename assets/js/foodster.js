@@ -5,6 +5,7 @@ Booking Form
 $(function() {
     "use strict";
     loadGoogleMap();
+
 });
 
 /*============================================
