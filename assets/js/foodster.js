@@ -17,7 +17,7 @@ Contact Map
         var mapPoint = {
                     'lat': 38.1110346,
                     'lng': -122.5690945,
-                    'zoom' : 12,
+                    'zoom' : 10,
                     'infoText':'<p>Novato\
                                 <br/>CA</p>',
                     'linkText':'View on Google Maps',
