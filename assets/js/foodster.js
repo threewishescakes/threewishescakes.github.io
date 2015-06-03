@@ -48,7 +48,7 @@ Contact Map
             };
 
             // Create new Google Map object for pop-up restaurant windows
-            map = new google.maps.Map(document.getElementById("restaurant_map"), mapOptions);
+            //map = new google.maps.Map(document.getElementById("restaurant_map"), mapOptions);
 
             // Create new Google Map object for full width map section on homepage
             map = new google.maps.Map(document.getElementById("homepage_map"), mapOptions);
