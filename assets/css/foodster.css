@@ -1268,9 +1268,9 @@ header .btn:hover i.animated {
 }
 
 .pricing {
-  color: #fff;
+  color: #000;
   background: no-repeat center center scroll;
-  background-color: #222;
+  background-color: #fff;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
