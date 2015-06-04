@@ -106,12 +106,12 @@ $(window).load(function() {
     },1500); // 1.5 second delay so that we avoid the 'flicker' of the loading screen showing for a split second and then hiding immediately when its not needed
 
     // Call function for Google Maps
-    $('.restaurantPopUp').on('show.bs.modal', function (e) {
+    /*$('.restaurantPopUp').on('show.bs.modal', function (e) {
         // Call function for Google Maps when a modal is opened
         setTimeout(function() {
             loadGoogleMap();
         },300);
-    });
+    });*/
 
 });
 
