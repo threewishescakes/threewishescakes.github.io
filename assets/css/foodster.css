@@ -1308,7 +1308,7 @@ header .btn:hover i.animated {
 }
 
 /*
-//Testing removing borders for empty cells
+// Removing borders for empty cells but preserving normal spacing/height
 */
 
 .pricing .list-group-item {
@@ -1325,6 +1325,11 @@ header .btn:hover i.animated {
   border-left:none;
   border-right:none;
   min-height:3em;
+}
+
+.pricing p {
+  font-size: 18px;
+  margin-bottom:  30px;
 }
 
 
