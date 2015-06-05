@@ -308,10 +308,13 @@
                     </table>
                   </div>
                   <div class="panel-footer">
-
-                    (*) German Chocolate price TBD<br/>
-                    (**) Additional charges for airbrushing and custom, decorative fondant work
-
+                    <div>
+                      <ul class="fa-ul">
+                        <li><i class="fa-li fa fa-info-circle"></i>German Chocolate price TBD</li>
+                        <li><i class="fa-li fa fa-info-circle"></i> Additional charges for airbrushing and custom, decorative fondant work</li>
+                        <li><i class="fa-li fa fa-info-circle"></i><a href="#servingsRoundModal" data-toggle="modal">Servings Chart</a></li>
+                      </ul>
+                    </div>
                   </div>
 
                 </div>
@@ -425,6 +428,37 @@
           </div><!-- .footer-bottom -->
     </footer><!-- footer -->
     <!-- End Footer Section -->
+
+    <!-- Pricing Chart modal -->
+    <div class="popup-modal modal fade" id="servingsRoundModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- News Article Goes Here -->
+
+                            <icon class="fa fa-birthday-cake fa-3x"></icon>
+                            <h2 class="section-heading">Serving Chart</h2>
+                            <h3 class="section-subheading">Approximate servings by cake size and pricing per tier.</h3>
+
+                            <h4 class="section-subsubheading">Round Cakes</h4>
+                            <p>The chart below depicts approximate servings based on 2"x2" size slices.  Prices shown are for each layer and do not include fillings, fondant covered and other options.</p>
+                            <img class="img-responsive img-centered" src="assets/images/cakepricechart.png" alt="" data-no-retina>
+
+                        </div>
+                    </div>
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </div><!-- /.modal-content -->
+    </div>
+    <!-- End menu modal -->
 
     <!-- Restaurant modal -->
     <div class="popup-modal modal fade restaurantPopUp" id="restaurantModal1" tabindex="-1" role="dialog" aria-hidden="true">
