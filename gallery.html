@@ -87,76 +87,16 @@
     </nav>
     <!-- End Navigation -->
 
-    <!-- Start Gallery Slider -->
-    <header>
-      <div id="gallery" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#gallery" data-slide-to="0" class="active"></li>
-          <li data-target="#gallery" data-slide-to="1"></li>
-          <li data-target="#gallery" data-slide-to="2"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
-              <div class="fill item_one"></div>
-          </div>
-          <div class="item">
-              <div class="fill item_two"></div>
-          </div>
-          <div class="item">
-              <div class="fill item_three"></div>
-          </div>
-        </div>
-
-      <!-- Controls -->
-        <a class="left carousel-control" href="#gallery" role="button" data-slide="prev">
-          <span class="fa fa-angle-left"></span>
-        </a>
-        <a class="right carousel-control" href="#gallery" role="button" data-slide="next">
-          <span class="fa fa-angle-right"></span>
-        </a>
-      </div>
-    </header>
-    <!-- End Gallery Slider -->
-
+    <div id="basicExample" class="container">
+      <a href="assets/images/gallery/DSC_0480_full.jpg">
+          <img alt="5th Birthday" src="assets/images/gallery/DSC_0480_thumb.jpg" />
+      </a>
+      <a href="assets/images/gallery/DSC_0421_full.jpg">
+          <img alt="Halloween Themed Birthday" src="assets/images/gallery/DSC_0421_thumb.jpg" />
+      </a>
+  </div>
     <!-- Footer Section -->
     <footer id="footer">
-          <div class="container inner">
-              <div class="row">
-
-                  <div class="col-md-12 text-center">
-                      <h2 class="section-heading wow fadeInDown" >Contact Three Wishes Cakes</h2>
-                  </div>
-
-                  <div class="col-md-3 col-sm-6 inner">
-                    <h3 class="section-subheading">Social<span>U</span></h3>
-                    <ul class="list-inline">
-                        <li><a href="https://www.facebook.com/threewishescakes" target="_blank"><i class="fa fa-facebook fa-fw fa-2x"></i></a></li>
-                    </ul><!-- /.list-inline -->
-                  </div><!-- /.col -->
-
-                  <div class="col-md-3 col-sm-6 inner">
-                      <h3 class="section-subheading">About Me <span>M</span></h3>
-                      <p>I am a mother, homemaker and baker.  I look forward to working with you on your custom cake design.</p>
-                      <!--a href="about.html" class="txt-btn">More about us</a-->
-                  </div><!-- /.col -->
-
-                  <div class="col-md-3 col-sm-6 inner">
-                      <h3 class="section-subheading">Get in Touch <span>V</span></h3>
-                      <ul class="list-inline">
-                          <li><i class="icon-mobile contact"></i>(415)-599-2704</li>
-                          <li><a href="mailto:threewishescakesnovato@gmail.com">threewishescakesnovato@gmail.com</a></li>
-                      </ul><!-- /.contacts -->
-                  </div><!-- /.col -->
-
-                  <div class="col-md-3 col-sm-6 inner">
-
-                  </div><!-- /.col -->
-
-              </div><!-- /.row -->
-          </div><!-- .container -->
 
           <div class="footer-bottom">
               <div class="container inner">
@@ -212,22 +152,25 @@
     /*============================================
     Match height of gallery carousel to window height
     ==============================================*/
-    function matchGalleryHeight() {
-        "use strict";
-        // Adjust carousel .item height to same as window height, minus navigation bar height
-        var wH = $(window).height();
-        var navHeight = $('#nav').outerHeight();
-        var galleryHeight = wH - navHeight;
-        $('#gallery .item').css("height", galleryHeight);
-    }
-    $(function() {
-        "use strict";
-        matchGalleryHeight();
-    });
-    $(window).resize(function() {
-        "use strict";
-        matchGalleryHeight();
-    });
+    // function matchGalleryHeight() {
+    //     "use strict";
+    //     // Adjust carousel .item height to same as window height, minus navigation bar height
+    //     var wH = $(window).height();
+    //     var navHeight = $('#nav').outerHeight();
+    //     var galleryHeight = wH - navHeight;
+    //     $('#gallery .item').css("height", galleryHeight);
+    // }
+    // $(function() {
+    //     "use strict";
+    //     matchGalleryHeight();
+    // });
+    // $(window).resize(function() {
+    //     "use strict";
+    //     matchGalleryHeight();
+    // });
+
+    $("#basicExample").justifiedGallery();
+
     </script>
 
     <!-- Placeholders.js provides IE 6-9 support of HTML5 placeholder -->
