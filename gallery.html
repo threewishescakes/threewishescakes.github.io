@@ -26,6 +26,7 @@
 
     <!-- Main CSS -->
     <link href="assets/css/foodster.css" rel="stylesheet">
+    <link href="assets/css/gallery.css" rel="stylesheet">
 
     <!-- For demo purposes only
     <link href="assets/css/demo.css" rel="stylesheet">-->
@@ -87,13 +88,26 @@
     </nav>
     <!-- End Navigation -->
 
-    <div id="basicExample" class="container">
-      <a href="assets/images/gallery/DSC_0480_full.jpg">
-          <img alt="5th Birthday" src="assets/images/gallery/DSC_0480_thumb.jpg" />
-      </a>
-      <a href="assets/images/gallery/DSC_0421_full.jpg">
-          <img alt="Halloween Themed Birthday" src="assets/images/gallery/DSC_0421_thumb.jpg" />
-      </a>
+    <div id="gallery" class="container">
+      <div class="row">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-8">
+          <div id="basicExample">
+            <a href="assets/images/gallery/DSC_0292_full.jpg">
+              <img alt="Buttercream Frosting" src="assets/images/gallery/DSC_0292_thumb.jpg" />
+            </a>
+            <a href="assets/images/gallery/DSC_0480_full.jpg">
+              <img alt="5th Birthday" src="assets/images/gallery/DSC_0480_thumb.jpg" />
+            </a>
+            <a href="assets/images/gallery/DSC_0421_full.jpg">
+              <img alt="Halloween Themed Birthday" src="assets/images/gallery/DSC_0421_thumb.jpg" />
+            </a>
+          </div>
+        </div>
+        <div class="col-md-2">
+        </div>
+    </div>
   </div>
     <!-- Footer Section -->
     <footer id="footer">
@@ -169,7 +183,11 @@
     //     matchGalleryHeight();
     // });
 
-    $("#basicExample").justifiedGallery();
+    $("#basicExample").justifiedGallery({
+      rowHeight : 200,
+      lastRow : 'nojustify',
+      margins : 3
+    });
 
     </script>
 
